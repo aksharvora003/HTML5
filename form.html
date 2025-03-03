@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            width: 50%;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid black;
+            background-color: white;
+            border-radius: 5px;
+        }
+        h2 {
+            text-align: center;
+        }
+        table {
+            width: 100%;
+        }
+        td {
+            padding: 5px;
+        }
+        input, select {
+            width: 100%;
+            padding: 5px;
+            margin: 3px 0;
+        }
+        button {
+            padding: 10px;
+            margin: 5px;
+            width: 100px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form>
+            <table>
+                <tr>
+                    <td>First name:</td>
+                    <td><input type="text" placeholder="Enter Full Name"></td>
+                </tr>
+                <tr>
+                    <td>Last name:</td>
+                    <td><input type="text" placeholder="Enter Full Name"></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" placeholder="example@example.com"></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" placeholder="Enter password"></td>
+                </tr>
+                <tr>
+                    <td>Re-enter password:</td>
+                    <td><input type="password" placeholder="Re-Enter password"></td>
+                </tr>
+                <tr>
+                    <td>Birthdate:</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Tel:</td>
+                    <td><input type="tel" placeholder="Enter phone number"></td>
+                </tr>
+                <tr>
+                    <td>Favourite Color:</td>
+                    <td><input type="color"></td>
+                </tr>
+                <tr>
+                    <td>Quantity:</td>
+                    <td><input type="number" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Hobby:</td>
+                    <td>
+                        <input type="checkbox" name="hobby" value="Sports"> Sports
+                        <input type="checkbox" name="hobby" value="Reading"> Reading
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pancard Number:</td>
+                    <td><input type="text" placeholder="Enter Pan Number"></td>
+                </tr>
+                <tr>
+                    <td>Aadhar Number:</td>
+                    <td><input type="text" placeholder="Enter Aadhar number"></td>
+                </tr>
+                <tr>
+                    <td>Enrollment Number:</td>
+                    <td><input type="text" placeholder="Enter Enrollment number"></td>
+                </tr>
+                <tr>
+                    <td>Image:</td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td>Ration Card PDF:</td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+</body>
+</html>
